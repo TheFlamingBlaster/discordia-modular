@@ -8,3 +8,8 @@ If you somehow need help with this thing, send me a discord message: TheFlamingB
 
 If you want to run this, do "[luvit-path] flame-modular.lua"
 You'll need luvit and Discordia to use this.
+
+What you need to do to get this to work is fairly obvious,
+You'll need to:
+Change the "path" in  flame-modular.lua to where the script is located,
+Change "token" in flame-modular.lua to your bot's token.
