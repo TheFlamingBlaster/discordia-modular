@@ -2,6 +2,8 @@ discordia = require('Discordia')
 client = discordia.Client()
 json = require('json')
 prefix = '-'
+local path = "C:\\Users\\TheFlamingBlaster\\Documents\\luvit\\flame-modular\\"
+local token = '[YOUR TOKEN HERE]'
 
 debugger = true
 
@@ -90,9 +92,9 @@ end
 
 prefix = '-'
 
-for file in io.popen([[dir "]]..[[./newmodules]]..[[" /b ]]):lines() do
-    debug_fancy_output("../newmodules/"..file)
-    local t = require("./newmodules/"..file:sub(1,file:len()-1))
+for file in io.popen([[dir "]]..path..[[/newmodules]]..[[" /b ]]):lines() do
+    debug_fancy_output("..\\newmodules\\"..file)
+    local t = require(path.."newmodules\\"..file:sub(1,file:len()-1))
     local r = import_module(t) 
     debug_fancy_output('Attempting to load module: '..file)
     if r.complete == true then
@@ -104,5 +106,4 @@ end
 
 fancy_output('Pre-initalization steps complete, proceeding onto bot startup...')
 print('\n')
-
-client:run('Bot NDM3MzA3MDg5MDk5MDMwNTM4.Db0JvA.wyL-Thc5pu0PXQ4-wzo3mBuOeQI')
+client:run('Bot '..token)
