@@ -2229,3 +2229,10 @@
 2018-04-28 12:04:10 | [INFO]    | Shard 0 : Reconnecting after 1809 ms...
 2018-04-28 12:04:12 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
 2018-04-28 12:04:12 | [INFO]    | Shard 0 : Received HELLO (gateway-prd-main-td55)
+2018-04-28 12:04:26 | [INFO]    | Discordia 2.3.0
+2018-04-28 12:04:26 | [INFO]    | Connecting to Discord...
+2018-04-28 12:04:26 | [INFO]    | Authenticated as Modular Bot#2266
+2018-04-28 12:04:26 | [INFO]    | Launching shard 0 (1 out of 1)...
+2018-04-28 12:04:26 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2018-04-28 12:04:26 | [INFO]    | Shard 0 : Received HELLO (gateway-prd-main-gb45)
+2018-04-28 12:04:26 | [INFO]    | Shard 0 : Received READY (gateway-prd-main-gb45, discord-sessions-prd-1-11)
