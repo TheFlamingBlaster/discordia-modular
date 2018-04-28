@@ -21,7 +21,7 @@ json = require('json')
 prefix = '-' -- <-- Prefix
 path = "C:\\Users\\TheFlamingBlaster\\Documents\\luvit\\flame-modular\\" -- <-- Directory where the admin resides. 
 modules = {}
-token = 'NDM3MzA3MDg5MDk5MDMwNTM4.Db6nKg.h4y9AZjwUrg9By-4_bLovr_3Sms' -- <-- Insert your token here!
+token = '' -- <-- Insert your token here!
 
 info = {-- <-- We use placeholders in various areas around the admin for commonly used variables. You can change these here if you see fit. 
 ['DOCS'] = 'http://rtestnew.000webhostapp.com/modular-admin/docs',
